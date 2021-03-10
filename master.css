@@ -1,0 +1,68 @@
+html, body {
+    margin:0;
+    padding:0;
+    background: black;
+    color: white;
+}
+
+#wrapper {
+    position:relative;
+    min-height:200%;
+}
+
+#header {
+    position:fixed;
+    top:0;
+    background: black;
+}
+
+#top {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding-bottom: 0px;
+}
+
+#names {
+    padding: 0px;
+}
+
+#name1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#name2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#container {
+    padding:0px;
+    font-size: 125%;
+    line-height: 180%;
+}
+
+#container p {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 300px;
+    font-size:125%;
+    line-height: 180%;
+}
+
+#container img {
+    position:fixed;
+    bottom:0;
+}
+
+#blank {
+    padding: 0px;
+}
+
+#footer {
+    position:fixed;
+    display:inline-flex;
+    bottom:0;
+    background:#ccc;
+}
