@@ -6,8 +6,10 @@ html, body {
 }
 
 #wrapper {
+    <!--
     position:relative;
     min-height:200%;
+    -->
 }
 
 #header {
@@ -42,7 +44,7 @@ html, body {
     line-height: 35pt;
 }
 -->
-#container p {
+p {
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 0px;
