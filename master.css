@@ -37,16 +37,18 @@ html, body {
 #container {
 }
 
-p {
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 0px;
-    padding-bottom: 300px;
-    font-size:25pt;
-    line-height: 40pt;
+@media(min-height:701px){
+    p {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 0px;
+        padding-bottom: 300px;
+        font-size:25pt;
+        line-height: 40pt;
+    }
 }
 
-@media(min-height:700px){
+@media(max-height:700px){
     p {
         padding-left: 6px;
         padding-right: 6px;
