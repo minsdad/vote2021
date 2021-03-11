@@ -46,7 +46,7 @@ p {
     line-height: 40pt;
 }
 
-@media(max-height:900px){
+@media(max-height:700px){
     p {
         padding-left: 6px;
         padding-right: 6px;
