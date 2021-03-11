@@ -37,7 +37,7 @@ html, body {
 #container {
 }
 
-@media(max-height:1080px){
+@media(min-height:1080px){
     p {
         padding-left: 10px;
         padding-right: 10px;
@@ -48,7 +48,7 @@ html, body {
     }
 }
 
-@media(min-height:1081px){
+@media(max-height:1081px){
     p {
         padding-left: 6px;
         padding-right: 6px;
